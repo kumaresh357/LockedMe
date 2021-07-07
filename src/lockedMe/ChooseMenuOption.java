@@ -16,7 +16,7 @@ public class ChooseMenuOption {
 				choosingMenuTwo();
 				break;
 			case 3:
-				System.out.println("Program Terminated");
+				System.out.println("Application Terminated");
 				sc.close();
 				System.exit(0);
 				break;
@@ -49,7 +49,7 @@ public class ChooseMenuOption {
 				choosingMenuOne();
 				break;
 			case 5:
-				System.out.println("Program Terminated");
+				System.out.println("Application Terminated");
 				sc.close();
 				System.exit(0);
 				break;

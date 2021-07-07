@@ -21,7 +21,7 @@ public class ExecuteMenuOption {
 		}
 	}
 	
-//	--------------------method for displaying all files of directory in alphabetical order----------------------
+//	--------------------method for displaying all files of directory in ascending order----------------------
 	public static void getAllFiles() {
 		try {
 		createDirectory();
@@ -29,7 +29,7 @@ public class ExecuteMenuOption {
 			File [] files = dir.listFiles();
 			List<File> filesList = Arrays.asList(files);
 			Collections.sort(filesList);
-			System.out.println("displaying all files in alphabatical order\n");
+			System.out.println("displaying all files in ascending order\n");
 			for(File file: filesList) {
 				System.out.println(file.getName());
 			}
@@ -51,7 +51,7 @@ public class ExecuteMenuOption {
 			    System.out.println("file successfully created");
 			}
 			else {
-				System.out.println("file already exist");
+				System.out.println("file already exists");
 			}
 		} 
 		catch (Exception e) {
